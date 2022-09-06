@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.icon{
+    display: block;
+    max-width: 30px;
+}
+
+li {
+    list-style: none;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(../pics/montanhas_tarde.jpg) no-repeat top center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    height: 100vh;
+    color: #aeaeae;
+}
+
+.container{
+    padding: 0 16px;
+}
+
+.title{
+    font-size: 36px;
+    font-weight: normal;
+}
+
+.profile{
+    max-width: 400px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.box {
+    background: #23232e;
+    padding: 4rem; /*expande minha div*/
+    box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16); /*cria a sombra por trás da div*/
+    border-radius: 50px;
+    text-align: center;
+    margin-top: 8rem;
+}
+
+.perfil{
+    border-radius: 40%;
+    display: block;
+    max-width: 130px;
+    margin: 0 auto 2rem auto;
+}
+
+.profile span {
+    font-size: 24px;
+
+}
+
+.profile p{
+    font-size: 18px;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.redes-sociais{
+    display: flex; /*possibilita os itens ficarem lado a lado*/
+    justify-content: center;
+}
+
+.redes-sociais li{
+    margin-right: 1rem; /*cria a margem entre os itens*/
+} 
+
+.portfolio{
+    max-width: 886px;
+    box-sizing: border-box;
+}
+
+.portfolio ul {
+    margin-top: 3rem ;
+}
+
+.portfolio li{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    text-align: left;
+    gap: 1rem;
+    color: #aeaeae;
+}
+
+.portfolio li + li{
+    margin-top: 2rem;
+}
+
+.portfolio img{
+    border-radius: 10px;
+}
+
+.portfolio h2{
+    font-weight: normal;
+    margin-bottom: 1rem;
+}
+
+img{
+    max-width: 500px;
+}
+
+.rodape p{
+    font-size: 24px;
+    color: white;
+    text-shadow: 2px 2px 16px black;
+    margin-top: 50vh;
+    padding-bottom: 50vh;
+    text-align: center;
+}
+
+.link{
+    color:whitesmoke;
+}
+
+@media (max-width: 600px) {
+    .box {
+      padding: 2rem;
+      margin-top: 10rem;
+      margin-bottom: 30rem;
+      border-radius: 30px;
+    }
+    .box:first-child {
+      padding: 3rem;
+    }
+    .portfolio ul {
+      margin-top: 1rem;
+    }
+    .portfolio li {
+      grid-template-columns: 1fr;
+      justify-items: center;
+    }
+    .portfolio li div {
+      max-width: 448px;
+    }
+    .rodape {
+      font-size: 18px;
+      color: white;
+      text-shadow: none;
+      margin: 0;
+      padding: 14rem 0;
+    }
+}
