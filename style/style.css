@@ -125,39 +125,44 @@ img{
     color:whitesmoke;
 }
 
-@media (max-width: 600px) {
-    body{
-        zoom: 0.59;
-    }
+@media (max-width: 796px) {
     .profile {
       padding: 2rem;
       margin-top: 10rem;
       margin-bottom: 30rem;
       border-radius: 30px;
     }
+
     .portfolio{
         padding: 2rem;
         margin-top: 10rem;
+        margin-bottom: 30rem;
         border-radius: 30px;
+        
       }
+
     .box:first-child {
       padding: 3rem;
     }
+
     .portfolio ul {
       margin-top: 1rem;
     }
+
     .portfolio li {
       grid-template-columns: 1fr;
       justify-items: center;
     }
+
     .portfolio li div {
       max-width: 448px;
     }
+
     .rodape {
       font-size: 18px;
       color: white;
       text-shadow: none;
       margin: 0;
-      padding: 50vh 50vh;
+      padding: 14 rem 0;
     }
 }
