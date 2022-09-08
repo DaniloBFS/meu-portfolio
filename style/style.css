@@ -79,6 +79,7 @@ body{
 .portfolio{
     max-width: 886px;
     box-sizing: border-box;
+    margin-top: 10rem;
 }
 
 .portfolio ul {
@@ -137,7 +138,6 @@ img{
     .portfolio{
         padding: 2rem;
         margin-top: 10rem;
-        margin-bottom: 30rem;
         border-radius: 30px;
       }
     .box:first-child {
@@ -158,6 +158,6 @@ img{
       color: white;
       text-shadow: none;
       margin: 0;
-      padding: 14rem 0;
+      padding: 50vh 50vh;
     }
 }
